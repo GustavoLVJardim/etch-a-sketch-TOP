@@ -15,13 +15,31 @@ main > div {
     flex-wrap: wrap;
 }
 
-header, main, footer {
+header, main {
     text-align: center;
     margin: 0px;
     padding: 0px;
     font: 20px white arial, sans-serif;
     font-weight: bold;
     color: white;
+}
+footer {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font: 8px white arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+button{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 10px;
+    border: white;
 }
 
 
