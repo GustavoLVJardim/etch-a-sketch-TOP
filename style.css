@@ -34,6 +34,10 @@ footer, nav {
 }
 
 .section-container{
+    background-color: white;
+    padding: 25px;
+    
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -47,7 +51,7 @@ footer, nav {
 
 
 button{
-    color: black;
+    color: white;
     border-radius: 5px;
     background-color: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
@@ -56,3 +60,17 @@ button{
 }
 
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* ou outro valor desejado */
+    height: 320px;
+  }
+  .divs {
+    width: 20px; /* ajuste conforme necessário */
+    height: 20px;
+    box-sizing: border-box; /* para incluir as bordas no tamanho total */
+    border: 1px solid; /* opcional */
+  }
+  
+  
