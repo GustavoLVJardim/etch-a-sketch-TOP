@@ -18,9 +18,7 @@ body{
     border-radius: 0.5em;
 }
 
-#input-number{
 
-}
 
 .btn{
     background: rgb(131,58,180);
@@ -34,8 +32,8 @@ body{
 
 main > div {
     background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border: 1px solid white;
     margin-top: 18px;
     margin-left: auto;
@@ -61,8 +59,8 @@ main > div {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 320px; /* ou outro valor desejado */
-    height: 320px;
+    width: 600px; /* ou outro valor desejado */
+    height: 600px;
   }
 .divs {
     width: 20px; /* ajuste conforme necessário */
