@@ -18,6 +18,9 @@ body{
     border-radius: 0.5em;
 }
 
+#input-number {
+    width: 130px;
+}
 
 
 .btn{
@@ -56,6 +59,14 @@ main > div {
     margin: auto;
     
 }
+
+
+.radio-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +74,8 @@ main > div {
     height: 600px;
   }
 .divs {
+    display: flex;
+    flex-wrap: wrap;
     width: 20px; /* ajuste conforme necessário */
     height: 20px;
     box-sizing: border-box; /* para incluir as bordas no tamanho total */
